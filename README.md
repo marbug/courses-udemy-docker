@@ -1,6 +1,7 @@
 # Courses: Udemy "Docker Mastery: The Complete Toolset From a Docker Captain" #
 
 * [Course resources](course-resources/README.md)
+* [Docker editions](docker-editions/README.md)
 * TODO
 
 ## Useful links ##
