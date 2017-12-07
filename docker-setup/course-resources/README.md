@@ -1,9 +1,9 @@
 # Course resources #
 
-* [Docker-CheatSheet-08.09.2016-0.pdf](../files/Docker-CheatSheet-08.09.2016-0.pdf)
+* [Docker-CheatSheet-08.09.2016-0.pdf](../../files/Docker-CheatSheet-08.09.2016-0.pdf)
 * [Github repo](https://github.com/bretfisher/udemy-docker-mastery)
-* [Slides-Section-1-5.pdf](Slides-Section-1-5.pdf)
-* [Slides-Section-6-10.pdf](Slides-Section-6-10.pdf)
+* [Slides-Section-1-5.pdf](../../files/Slides-Section-1-5.pdf)
+* [Slides-Section-6-10.pdf](../../files/Slides-Section-6-10.pdf)
 
 All examples and assignment files are in a [single code repository on GitHub](https://github.com/bretfisher/udemy-docker-mastery). Each folder represents a single lecture video (but not all lectures have a folder, as not all need code).
 
