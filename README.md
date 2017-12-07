@@ -2,6 +2,7 @@
 
 * [Course resources](course-resources/README.md)
 * [Docker editions](docker-editions/README.md)
+* [Windows Docker options](windows-docker-options/README.md)
 * TODO
 
 ## Useful links ##
