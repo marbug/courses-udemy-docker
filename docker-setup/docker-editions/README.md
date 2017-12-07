@@ -3,10 +3,12 @@
 [https://store.docker.com](https://store.docker.com)
 
 Types of payment:
+
 * Community Edition (CE)
 * Enterprise Edition (EE)
 
 Types of installs:
+
 * Direct
 * Mac/Win
 * Cloud
