@@ -6,6 +6,7 @@
 * [Install Docker for Windows](install-docker-for-windows/README.md)
 * Install Docker Toolbox for Win7, 8, and 10 Home
 * [Install Docker for Mac](install-docker-for-mac/README.md)
+* [Install Docker for Linux](install-docker-for-linux/README.md)
 * TODO
 
 All examples and assignment files are in a [single code repository on GitHub](https://github.com/bretfisher/udemy-docker-mastery). Each folder represents a single lecture video (but not all lectures have a folder, as not all need code).

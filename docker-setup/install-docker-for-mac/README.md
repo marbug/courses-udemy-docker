@@ -1,6 +1,6 @@
 # Install Docker for Mac #
 
-* [Download Docker CE for Max](https://store.docker.com/editions/community/docker-ce-desktop-mac)
+* [Download Docker CE for Mac](https://store.docker.com/editions/community/docker-ce-desktop-mac)
 * [Download GitHub Desktop](https://desktop.github.com/)
 * [Download iTerm2](https://www.iterm2.com/)
 * [Download Visual Studio Code])(https://code.visualstudio.com/)
