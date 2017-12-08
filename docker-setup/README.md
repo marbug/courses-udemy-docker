@@ -8,7 +8,8 @@
 * [Install Docker for Mac](install-docker-for-mac/README.md)
 * [Install Docker for Linux](install-docker-for-linux/README.md)
 * [Code or Text Editor for Docker and Compose files](editor-for-docker/README.md)
-* TODO
+* Terminal Shell and Tab Completion for Docker CLI
+* Docker Version Format Change in Early 2017
 
 All examples and assignment files are in a [single code repository on GitHub](https://github.com/bretfisher/udemy-docker-mastery). Each folder represents a single lecture video (but not all lectures have a folder, as not all need code).
 
