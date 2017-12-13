@@ -59,6 +59,10 @@ i.e. it's enough to type only the part of id if it's unique.
 
     docker container logs webhost
 
+## See top ##
+
+    docker container top webhost
+
 | Navigation               |
 | ------------------------ |
 | [Level up](../README.md) |
