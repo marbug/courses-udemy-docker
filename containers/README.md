@@ -13,6 +13,12 @@
 * In this lecture our image will be the Nginx web server
 * Docker's default image "registry" is called [Docker Hub](hub.docker.com)
 
+## Container vs VM ##
+
+* They are just processes
+* Limited to what resources they can access
+* Exit when process stops
+
 | Navigation               |
 | ------------------------ |
 | [Level up](../README.md) |
