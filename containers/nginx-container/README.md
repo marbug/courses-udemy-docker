@@ -55,6 +55,10 @@ i.e. it's enough to type only the part of id if it's unique.
 
     docker container run --publish 80:80 --detach --name webhost nginx
 
+## See logs ##
+
+    docker container logs webhost
+
 | Navigation               |
 | ------------------------ |
 | [Level up](../README.md) |
