@@ -14,7 +14,7 @@ and see something like
     Digest: sha256:2ffc60a51c9d658594b63ef5acfac9d92f4e1550f633a3a16d898925c4e7f5a7
     Status: Downloaded newer image for nginx:latest
 
-open [localhost](http://localhost/).
+open [localhost](http://localhost/) in browser and see **Welcome to nginx!** page.
 
 | Navigation               |
 | ------------------------ |
