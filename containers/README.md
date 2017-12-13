@@ -19,6 +19,12 @@
 * Limited to what resources they can access
 * Exit when process stops
 
+## Useful info ##
+
+Run mongo:
+
+    docker run --name mongo -d mongo
+
 | Navigation               |
 | ------------------------ |
 | [Level up](../README.md) |
