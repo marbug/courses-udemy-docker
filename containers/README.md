@@ -2,7 +2,7 @@
 
 * [Check versions of our docker cli and engine](check-versions/README.md)
 * [Create a Nginx (web server) container](nginx-container/README.md)
-* Learn common container management commands
+* [Learn common container management commands](commands/README.md)
 * Learn Docker networking basics
 
 ## Image vs Container ##
