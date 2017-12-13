@@ -4,6 +4,7 @@
 * [Create a Nginx (web server) container](nginx-container/README.md)
 * [Learn common container management commands](commands/README.md)
 * [Windows containers](windows/README.md)
+* [Manage multiple containers](manange-multiple-containers/README.md)
 * Learn Docker networking basics
 
 ## Image vs Container ##
