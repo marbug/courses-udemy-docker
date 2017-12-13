@@ -1,4 +1,4 @@
-# Containers / Create a Nginx (web server) container #
+# Containers / Learn common container management commands #
 
 ## Stop foreground ##
 
