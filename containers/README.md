@@ -21,9 +21,13 @@
 
 ## Useful info ##
 
-Run mongo:
+* Run mongo
 
-    docker run --name mongo -d mongo
+        docker run --name mongo -d mongo
+
+* [Mike Coleman (Docker Employee) "Docker for the Virtualization Admin" eBook](https://github.com/mikegcoleman/docker101/blob/master/Docker_eBook_Jan_2017.pdf)
+
+* [Docker Internals: cgroups, namespaces, and beyond (YouTube)](https://www.youtube.com/watch?v=sK5i-N34im8)
 
 | Navigation               |
 | ------------------------ |
