@@ -51,6 +51,10 @@ i.e. it's enough to type only the part of id if it's unique.
 
     docker container ls -a
 
+## Run in background with name ##
+
+    docker container run --publish 80:80 --detach --name webhost nginx
+
 | Navigation               |
 | ------------------------ |
 | [Level up](../README.md) |
