@@ -16,6 +16,41 @@ and see something like
 
 open [localhost](http://localhost/) in browser and see **Welcome to nginx!** page.
 
+## Details ##
+
+* Downloaded image **nginx** from Docker Hub
+* Started a new container from that image
+* Opened port 80 on the host IP
+* Routes that traffic to the container IP, port 80
+
+## Stop foreground ##
+
+Press **Control** + **C**
+
+## Run in background ##
+
+    docker container run --publish 80:80 --detach nginx
+
+and it see the unique id like
+
+    2685648e3538b55bb6919b91bf894283cc2decae883879add5dc8686359fc343
+
+## View containers ##
+
+    docker container ls
+
+by default it shows only running containers.
+
+## Stop container ##
+
+    docker container stop 268
+
+i.e. it's enough to type only the part of id if it's unique.
+
+## View all containers ##
+
+    docker container ls -a
+
 | Navigation               |
 | ------------------------ |
 | [Level up](../README.md) |
