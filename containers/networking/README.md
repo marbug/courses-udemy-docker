@@ -20,9 +20,31 @@
 
 ## Commands ##
 
+* See container address
+
     docker container run -p 80:80 --name webhost -d nginx
     docker container port webhost
     docker container inspect --format '{{ .NetworkSettings.IPAddress }}' webhost
+
+* Show networks
+
+    docker network ls
+
+* Inspect a network
+
+    docker network inspect
+
+* Create a network
+
+    docker network create --driver
+
+* Attach a network to container
+
+    docker network connect
+
+* Detach a network from container
+
+    docker network disconnect
 
 ## Useful links ##
 
