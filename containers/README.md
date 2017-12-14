@@ -5,6 +5,7 @@
 * [Learn common container management commands](commands/README.md)
 * [Windows containers](windows/README.md)
 * [Manage multiple containers](manange-multiple-containers/README.md)
+* [What's going on in containers](what-is-going-on-in-containers/README.md)
 * Learn Docker networking basics
 
 ## Image vs Container ##
