@@ -26,7 +26,7 @@
 
 ## Useful links ##
 
-[Docker's --format option](https://docs.docker.com/engine/admin/formatting/)
+* [Docker's --format option](https://docs.docker.com/engine/admin/formatting/)
 
 | Navigation               |
 | ------------------------ |
