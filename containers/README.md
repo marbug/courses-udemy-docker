@@ -6,6 +6,7 @@
 * [Windows containers](windows/README.md)
 * [Manage multiple containers](manange-multiple-containers/README.md)
 * [What's going on in containers](what-is-going-on-in-containers/README.md)
+* [Getting a shell inside containers](shell-inside-containers/README.md)
 * Learn Docker networking basics
 
 ## Image vs Container ##
