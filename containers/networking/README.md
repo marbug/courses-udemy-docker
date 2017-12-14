@@ -24,8 +24,6 @@
     docker container port webhost
     docker container inspect --format '{{ .NetworkSettings.IPAddress }}' webhost
 
-TODO
-
 ## Useful links ##
 
 [Docker's --format option](https://docs.docker.com/engine/admin/formatting/)
