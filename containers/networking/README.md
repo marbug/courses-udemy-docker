@@ -46,6 +46,14 @@
 
         docker network disconnect
 
+## Default Security ##
+
+* Create your apps so frontend/backend sit on same Docker network
+* Their inter-communication never leaves host
+* All externally exposed ports closed by default
+* You must manually expose via **-p**, which is better default security
+* This gets even better later with Swarm and Overlay networks
+
 ## Useful links ##
 
 * [Docker's --format option](https://docs.docker.com/engine/admin/formatting/)
