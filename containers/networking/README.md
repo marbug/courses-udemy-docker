@@ -18,7 +18,11 @@
 * Skip virtual networks and use host IP (--net=host)
 * Use different Docker network drivers to gain new abilities
 
+## Commands ##
 
+    docker container run -p 80:80 --name webhost -d nginx
+    docker container port webhost
+    docker container inspect --format '{{ .NetworkSettings.IPAddress }}' webhost
 
 TODO
 
