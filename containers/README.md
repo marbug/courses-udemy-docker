@@ -27,7 +27,11 @@
 
 * Run mongo
 
-        docker run --name mongo -d mongo
+        docker container run --name mongo -d mongo
+
+* Run centos 7
+
+        docker container run --name centos7 -d centos:7
 
 * [Mike Coleman (Docker Employee) "Docker for the Virtualization Admin" eBook](https://github.com/mikegcoleman/docker101/blob/master/Docker_eBook_Jan_2017.pdf)
 
