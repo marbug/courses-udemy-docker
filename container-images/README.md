@@ -26,6 +26,13 @@ See images list:
 
     docker image ls
 
+## Images and their layers ##
+
+    docker history nginx:latest
+    docker history mysql
+
+
+
 TODO
 
 ## Useful links ##
