@@ -58,6 +58,12 @@
 
 Containers names are used as hostnames.
 
+## DNS Round Robin Test ##
+
+Ever since Docker Enginer 1.11, we can have multiple containers on a created network respond to the same DNS address.
+
+Research and use **--net-alias search** when creating them to give them an additional DNS name to respond to.
+
 ## Useful links ##
 
 * [Docker's --format option](https://docs.docker.com/engine/admin/formatting/)
