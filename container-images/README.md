@@ -43,13 +43,17 @@ Image detailed info:
 
         docker image tag nginx marabug/nginx
 
-* Publish:
+* Publish image:
 
         docker image push marabug/nginx
 
 * Create a tag:
 
         docker image tag marabug/nginx marabug/nginx:1.0
+
+* Publish tag:
+
+        docker image push marabug/nginx:1.0
 
 TODO
 
