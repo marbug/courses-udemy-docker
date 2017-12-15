@@ -62,7 +62,16 @@ Containers names are used as hostnames.
 
 Ever since Docker Enginer 1.11, we can have multiple containers on a created network respond to the same DNS address.
 
-Research and use **--net-alias search** when creating them to give them an additional DNS name to respond to.
+For example:
+
+    docker network create dude
+    docker container run -d --net dude --net-alias search elasticsearch:2
+    docker container run -d --net dude --net-alias search elasticsearch:2
+    docker container ls
+    docker container run --rm --net dude alpine nslookup search
+    docker container run --rm --net dude centos culr -s search:9200
+    docker container ls
+    docker container ls | awk '{print "docker container rm -f "$1}' | grep -v 'CONTAINER'
 
 ## Useful links ##
 
