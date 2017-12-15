@@ -39,13 +39,17 @@ Image detailed info:
 
 ## Image tagging and pushing to Docker Hub ##
 
-* Create a tag (my image from another one):
+* Create an image (my one from another one):
 
         docker image tag nginx marabug/nginx
 
 * Publish:
 
         docker image push marabug/nginx
+
+* Create a tag:
+
+        docker image tag marabug/nginx marabug/nginx:1.0
 
 TODO
 
