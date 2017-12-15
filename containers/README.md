@@ -31,7 +31,7 @@
 
 * Run centos 7
 
-        docker container run --name centos7 -d centos:7
+        docker container run --rm -it centos:7 bash
 
 * [Mike Coleman (Docker Employee) "Docker for the Virtualization Admin" eBook](https://github.com/mikegcoleman/docker101/blob/master/Docker_eBook_Jan_2017.pdf)
 
