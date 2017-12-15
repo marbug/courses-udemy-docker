@@ -8,7 +8,11 @@
 
     * An image is an ordered collection of root filesystem changes and the corresponding execution parameters for use within a container runtime
 
+## Using Docker Hub images ##
 
+* go to [hub.docker.com](hub.docker.com)
+* search for **nginx**
+* result must be a single name and has **official** type
 
 TODO
 
