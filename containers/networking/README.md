@@ -54,6 +54,10 @@
 * You must manually expose via **-p**, which is better default security
 * This gets even better later with Swarm and Overlay networks
 
+## DNS ##
+
+Containers names are used as hostnames.
+
 ## Useful links ##
 
 * [Docker's --format option](https://docs.docker.com/engine/admin/formatting/)
