@@ -22,7 +22,9 @@ Download specific version:
 
     docker pull nginx:1.10.3
 
+See images list:
 
+    docker image ls
 
 TODO
 
