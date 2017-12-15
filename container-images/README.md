@@ -14,6 +14,16 @@
 * search for **nginx**
 * result must be a single name and has **official** type
 
+Download latest:
+
+    docker pull nginx
+
+Download specific version:
+
+    docker pull nginx:1.10.3
+
+
+
 TODO
 
 | Navigation               |
