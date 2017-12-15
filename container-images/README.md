@@ -33,6 +33,12 @@ See images list:
 
 Files are stored for layers. So there is no need to download each image from scratch: only layers will be downloaded.
 
+Image detailed info:
+
+    docker image inspect nginx
+
+## Image tagging and pushing to Docker Hub ##
+
 TODO
 
 ## Useful links ##
