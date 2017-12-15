@@ -28,6 +28,12 @@ See images list:
 
 TODO
 
+## Useful links ##
+
+* [Official Docker Image Specification](https://github.com/moby/moby/blob/master/image/spec/v1.md)
+* [List of Official Docker Images](https://github.com/docker-library/official-images/tree/master/library)
+* [Images and Containers From Docker Docs](https://docs.docker.com/engine/userguide/storagedriver/imagesandcontainers/)
+
 | Navigation               |
 | ------------------------ |
 | [Level up](../README.md) |
