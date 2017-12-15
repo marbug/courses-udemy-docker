@@ -2,6 +2,7 @@
 
 * [Docker setup](docker-setup/README.md)
 * [Containers](containers/README.md)
+* [Container images](container-images/README.md)
 * TODO
 
 ## Useful links ##
