@@ -55,6 +55,8 @@ Image detailed info:
 
         docker image push marabug/nginx:1.0
 
+## Building images: the Dockerfile basics ##
+
 TODO
 
 ## Useful links ##
