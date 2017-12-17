@@ -59,6 +59,12 @@ Image detailed info:
 
 Read [here](dockerfile-basics/README.md)
 
+## Building images: running docker builds ##
+
+Locally:
+
+    docker image build -t customnginx .
+
 ## Useful links ##
 
 * [Official Docker Image Specification](https://github.com/moby/moby/blob/master/image/spec/v1.md)
