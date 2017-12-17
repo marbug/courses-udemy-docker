@@ -3,24 +3,7 @@
 * [What's in an image (and what isn't)](what-is-in-an-image/README.md)
 * [Using Docker Hub images](using-docker-hub-images/README.md)
 * [Images and their layers](images-and-their-layers/README.md)
-
-## Image tagging and pushing to Docker Hub ##
-
-* Create an image (my one from another one):
-
-        docker image tag nginx marabug/nginx
-
-* Publish image:
-
-        docker image push marabug/nginx
-
-* Create a tag:
-
-        docker image tag marabug/nginx marabug/nginx:1.0
-
-* Publish tag:
-
-        docker image push marabug/nginx:1.0
+* [Image tagging and pushing to Docker Hub](image-tagging-and-pushing/README.md)
 
 ## Building images: the Dockerfile basics ##
 
