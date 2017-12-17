@@ -44,6 +44,12 @@
 
 TODO
 
+## Useful info ##
+
+* See
+
+        docker build -f some-dockerfile
+
 | Navigation               |
 | ------------------------ |
 | [Level up](../README.md) |
