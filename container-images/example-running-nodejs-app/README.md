@@ -23,6 +23,42 @@
 
 Open [localhost](http://localhost/)
 
+## View images ##
+
+    docker images
+
+or
+
+    docker image ls
+
+## Create tag ##
+
+    docker tag testnode:latest marabug/testing-nodejs
+
+## Push to Docker Hub ##
+
+    docker push marabug/testing-nodejs
+
+## View images ##
+
+    docker images
+
+or
+
+    docker image ls
+
+## Remove local image ##
+
+    docker image rm marabug/testing-nodejs
+
+## Run image from Docker Hub ##
+
+    docker container run --rm -p 80:3000 marabug/testing-nodejs
+
+## Check ##
+
+Open [localhost](http://localhost/)
+
 | Navigation               |
 | ------------------------ |
 | [Level up](../README.md) |
