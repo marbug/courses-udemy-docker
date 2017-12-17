@@ -2,17 +2,7 @@
 
 * [What's in an image (and what isn't)](what-is-in-an-image/README.md)
 * [Using Docker Hub images](using-docker-hub-images/README.md)
-
-## Images and their layers ##
-
-    docker history nginx:latest
-    docker history mysql
-
-Files are stored for layers. So there is no need to download each image from scratch: only layers will be downloaded.
-
-Image detailed info:
-
-    docker image inspect nginx
+* [Images and their layers](images-and-their-layers/README.md)
 
 ## Image tagging and pushing to Docker Hub ##
 
