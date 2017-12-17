@@ -83,6 +83,8 @@ Add **8080** to **EXPOSE** in **Dockerfile**:
 
     docker image build -t customnginx .
 
+Rebuilding will be much faster because of layers.
+
 ### View image id ###
 
     docker image ls
