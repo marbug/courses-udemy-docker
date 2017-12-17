@@ -7,6 +7,7 @@
 * [Building images: the Dockerfile basics](dockerfile-basics/README.md)
 * [Building images: running docker builds](running-docker-builds/README.md)
 * [Building images: extending official images](extend-official-images/README.md)
+* [Example: running nodejs app](example-running-nodejs-app/README.md)
 
 ## Useful links ##
 
