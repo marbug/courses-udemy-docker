@@ -4,18 +4,9 @@
 * [Using Docker Hub images](using-docker-hub-images/README.md)
 * [Images and their layers](images-and-their-layers/README.md)
 * [Image tagging and pushing to Docker Hub](image-tagging-and-pushing/README.md)
-
-## Building images: the Dockerfile basics ##
-
-Read [here](dockerfile-basics/README.md)
-
-## Building images: running docker builds ##
-
-Read [here](running-docker-builds/README.md)
-
-## Building images: extending official images ##
-
-Read [here](extend-official-images/README.md)
+* [Building images: the Dockerfile basics](dockerfile-basics/README.md)
+* [Building images: running docker builds](running-docker-builds/README.md)
+* [Building images: extending official images](extend-official-images/README.md)
 
 ## Useful links ##
 
