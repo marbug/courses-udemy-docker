@@ -55,6 +55,10 @@
 
 * Stop the image by pressing **Ctrl** + **C**
 
+## Create tag ##
+
+    docker image tag nginx-with-html:latest marabug/nginx-with-html:latest
+
 ## Useful info ##
 
 * Use **WORKDIR**
