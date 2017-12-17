@@ -57,7 +57,7 @@ Image detailed info:
 
 ## Building images: the Dockerfile basics ##
 
-TODO
+Read [here](dockerfile-basics/README.md)
 
 ## Useful links ##
 
