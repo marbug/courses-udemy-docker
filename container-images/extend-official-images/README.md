@@ -37,7 +37,7 @@
 
         docker container run -p 80:80 --rm nginx
 
-* Open [localhost](localhost) and remember how the page looks like
+* Open [localhost](http://localhost/) and remember how the page looks like
 
 * Stop the image by pressing **Ctrl** + **C**
 
@@ -51,7 +51,7 @@
 
         docker container run -p 80:80 --rm nginx-with-html
 
-* Open [localhost](localhost) and check how the page looks now
+* Open [localhost](http://localhost/) and check how the page looks now
 
 * Stop the image by pressing **Ctrl** + **C**
 

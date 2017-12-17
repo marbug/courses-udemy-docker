@@ -21,7 +21,7 @@
 
 ## Check ##
 
-Open [localhost](localhost)
+Open [localhost](http://localhost/)
 
 | Navigation               |
 | ------------------------ |
