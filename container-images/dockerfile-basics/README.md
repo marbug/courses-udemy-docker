@@ -40,6 +40,8 @@
     # required: run this command when container is launched
     # only one CMD allowed, so if there are mulitple, last one wins
 
+## Details ##
+
 TODO
 
 | Navigation               |
