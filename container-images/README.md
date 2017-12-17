@@ -69,6 +69,10 @@ In the same directory (with **Dockerfile**)...
 
     docker image build -t customnginx .
 
+### View image id ###
+
+    docker image ls
+
 ### Add port ###
 
 Add **8080** to **EXPOSE** in **Dockerfile**:
@@ -78,6 +82,10 @@ Add **8080** to **EXPOSE** in **Dockerfile**:
 ### Rebuild ###
 
     docker image build -t customnginx .
+
+### View image id ###
+
+    docker image ls
 
 ## Useful links ##
 
