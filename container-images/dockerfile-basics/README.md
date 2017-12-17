@@ -1,4 +1,4 @@
-# Container images / Dockerfile basics #
+# Container images / Building images: the Dockerfile basics #
 
 ## Dockerfile ##
 
