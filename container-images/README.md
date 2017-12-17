@@ -63,6 +63,10 @@ Read [here](dockerfile-basics/README.md)
 
 Read [here](running-docker-builds/README.md)
 
+## Building images: extending official images ##
+
+Read [here](extend-official-images/README.md)
+
 ## Useful links ##
 
 * [Official Docker Image Specification](https://github.com/moby/moby/blob/master/image/spec/v1.md)
