@@ -1,5 +1,7 @@
 # Container images / Building images: the Dockerfile basics #
 
+Create some directory and create **Dockerfile** in it.
+
 ## Dockerfile ##
 
     # NOTE: this example is taken from the default Dockerfile for the official nginx Docker Hub Repo

@@ -57,8 +57,6 @@ Image detailed info:
 
 ## Building images: the Dockerfile basics ##
 
-Create some directory and create **Dockerfile** in it.
-
 Read [here](dockerfile-basics/README.md)
 
 ## Building images: running docker builds ##
