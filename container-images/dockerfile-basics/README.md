@@ -32,7 +32,7 @@
       && ln -sf /dev/stderr /var/log/nginx/error.log
     # forward request and error logs to docker log collector
 
-    EXPOSE 80 443 8080
+    EXPOSE 80 443
     # expose these ports on the docker virtual network
     # you still need to use -p or -P to open/forward these ports on host
 

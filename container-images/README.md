@@ -69,6 +69,16 @@ In the same directory (with **Dockerfile**)...
 
     docker image build -t customnginx .
 
+### Add port ###
+
+Add **8080** to **EXPOSE** in **Dockerfile**:
+
+    EXPOSE 80 443 8080
+
+### Rebuild ###
+
+    docker image build -t customnginx .
+
 ## Useful links ##
 
 * [Official Docker Image Specification](https://github.com/moby/moby/blob/master/image/spec/v1.md)
