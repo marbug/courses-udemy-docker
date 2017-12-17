@@ -1,5 +1,7 @@
 # Container images #
 
+* [What's in an image (and what isn't)](what-is-in-an-image/README.md)
+
 ## What's in an image (and what isn't) ##
 
 * App binaries and dependecies
