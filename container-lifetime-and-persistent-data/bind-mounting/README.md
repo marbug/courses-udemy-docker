@@ -13,7 +13,9 @@
 
             ... run -v //c/Users/marabug/stuff:/path/container
 
-TODO
+## Example ##
+
+    docker container run -d --name nginx -p 80:80 -v $(pwd):/usr/share/nginx/html nginx
 
 | Navigation               |
 | ------------------------ |
