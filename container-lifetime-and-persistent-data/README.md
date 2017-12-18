@@ -1,5 +1,16 @@
 # Container lifetime and persistent data #
 
+Containers are **usually** immutable and ephemeral.
+
+"immutable infrastructure": only redeploy containers, never change. But what about databases or unique data?
+
+Docker gives us features to ensure these "separation of concerns".
+
+Two ways: Volumes and Bind Mounts.
+
+* Volumes: make special location outside of container UFS
+* Bind Mounts: link container path to host path
+
 TODO
 
 ## Useful links ##
