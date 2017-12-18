@@ -4,7 +4,7 @@ Containers are **usually** immutable and ephemeral.
 
 "immutable infrastructure": only redeploy containers, never change. But what about databases or unique data?
 
-Docker gives us features to ensure these "separation of concerns".
+Docker gives us features to ensure these "separation of concerns". This is known as "persistent data".
 
 Two ways: Volumes and Bind Mounts.
 
