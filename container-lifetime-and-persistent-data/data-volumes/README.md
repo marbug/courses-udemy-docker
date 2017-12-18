@@ -1,26 +1,28 @@
 # Container lifetime and persistent data / Persistend data: data volumes #
 
-* Use **VOLUME** in **Dockerfile**
+Use **VOLUME** in **Dockerfile**.
 
-        docker pull mysql
+For example:
+
+    docker pull mysql
 
 Run:
 
-        docker image inspect mysql
+    docker image inspect mysql
 
 and see
 
-            "Volumes": {
-                "/var/lib/mysql": {}
-            },
+    "Volumes": {
+        "/var/lib/mysql": {}
+    },
 
 Run container:
 
-        docker container run -d --name mysql -e MYSQL_ALLOW_EMPTY_PASSWORD=True mysql
+    docker container run -d --name mysql -e MYSQL_ALLOW_EMPTY_PASSWORD=True mysql
 
 Ensure that it's running:
 
-        docker container ls
+    docker container ls
 
 TODO
 
