@@ -1,6 +1,6 @@
 # Container lifetime and persistent data / Persistend data: data volumes #
 
-Use **VOLUME** in **Dockerfile**.
+## Use **VOLUME** in **Dockerfile** ##
 
 For example:
 
