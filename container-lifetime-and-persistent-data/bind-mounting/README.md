@@ -7,14 +7,15 @@
 
     * Mac/Linux
 
-            ... run -v /Users/marabug/stuff:/path/container
+            ... run -v /Users/marabug/cpp/marbug/courses-udemy-docker/container-images/extend-official-images:/path/container
 
     * Windows
 
-            ... run -v //c/Users/marabug/stuff:/path/container
+            ... run -v //c/Users/marabug/cpp/marbug/courses-udemy-docker/container-images/extend-official-images:/path/container
 
 ## Example ##
 
+    cd /Users/marabug/cpp/marbug/courses-udemy-docker/container-images/extend-official-images
     docker container run -d --name nginx -p 80:80 -v $(pwd):/usr/share/nginx/html nginx
 
 | Navigation               |
