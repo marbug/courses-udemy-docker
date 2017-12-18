@@ -3,6 +3,7 @@
 * [Docker setup](docker-setup/README.md)
 * [Containers](containers/README.md)
 * [Container images](container-images/README.md)
+* [Container lifetime and persistent data](container-lifetime-and-persistent-data/README.md)
 * TODO
 
 ## Useful links ##
