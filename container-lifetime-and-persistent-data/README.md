@@ -2,6 +2,7 @@
 
 * [The issue description](issue-description/README.md)
 * [Persistend data: data volumes](data-volumes/README.md)
+* [Persistend data: bind mounting](bind-mounting/README.md)
 * TODO
 
 | Navigation               |
