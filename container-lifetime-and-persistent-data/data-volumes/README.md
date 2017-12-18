@@ -18,6 +18,10 @@ Run container:
 
         docker container run -d --name mysql -e MYSQL_ALLOW_EMPTY_PASSWORD=True mysql
 
+Ensure that it's running:
+
+        docker container ls
+
 TODO
 
 | Navigation               |
