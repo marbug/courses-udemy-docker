@@ -5,7 +5,6 @@
 * [Persistend data: bind mounting](bind-mounting/README.md)
 * [Database upgrades with named volumes](database-upgrades/README.md)
 * [Edit code running in containers with bind mounts](edit-code-in-containers/README.md)
-* TODO
 
 | Navigation               |
 | ------------------------ |
