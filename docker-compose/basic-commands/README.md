@@ -12,6 +12,7 @@
     * setup volumes/networks and start all containers:
 
             docker-compose up
+            docker-compose up -d
 
     * stop all containers and remove containers/volumes/networks:
 
