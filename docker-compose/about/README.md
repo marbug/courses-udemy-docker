@@ -23,7 +23,7 @@ See:
 
 **docker-compose.yml** is default filename, but any can be used with **docker-compose -f**
 
-### Example of v2 ###
+### Example of v2 (simple) ###
 
     version: '2'
 
@@ -38,7 +38,7 @@ See:
         ports:
           - '80:4000'
 
-### Example of v3.1 ###
+### Example of v3.1 (simple) ###
 
     version: '3.1'  # if no version is specificed then v1 is assumed. Recommend v2 minimum
     
@@ -53,6 +53,84 @@ See:
     volumes: # Optional, same as docker volume create
     
     networks: # Optional, same as docker network create
+
+### Example of v2 (complex) ###
+
+    version: '2'
+    
+    services:
+    
+      wordpress:
+        image: wordpress
+        ports:
+          - 8080:80
+        environment:
+          WORDPRESS_DB_HOST: mysql
+          WORDPRESS_DB_NAME: wordpress
+          WORDPRESS_DB_USER: example
+          WORDPRESS_DB_PASSWORD: examplePW
+        volumes:
+          - ./wordpress-data:/var/www/html
+    
+      mysql:
+        image: mariadb
+        environment:
+          MYSQL_ROOT_PASSWORD: examplerootPW
+          MYSQL_DATABASE: wordpress
+          MYSQL_USER: example
+          MYSQL_PASSWORD: examplePW
+        volumes:
+          - mysql-data:/var/lib/mysql
+    
+    volumes:
+
+### Example of v3 (complex) ###
+
+    version: '3'
+    
+    services:
+      ghost:
+        image: ghost
+        ports:
+          - "80:2368"
+        environment:
+          - URL=http://localhost
+          - NODE_ENV=production
+          - MYSQL_HOST=mysql-primary
+          - MYSQL_PASSWORD=mypass
+          - MYSQL_DATABASE=ghost
+        volumes:
+          - ./config.js:/var/lib/ghost/config.js
+        depends_on:
+          - mysql-primary
+          - mysql-secondary
+      proxysql:
+        image: percona/proxysql
+        environment: 
+          - CLUSTER_NAME=mycluster
+          - CLUSTER_JOIN=mysql-primary,mysql-secondary
+          - MYSQL_ROOT_PASSWORD=mypass
+       
+          - MYSQL_PROXY_USER=proxyuser
+          - MYSQL_PROXY_PASSWORD=s3cret
+      mysql-primary:
+        image: percona/percona-xtradb-cluster:5.7
+        environment: 
+          - CLUSTER_NAME=mycluster
+          - MYSQL_ROOT_PASSWORD=mypass
+          - MYSQL_DATABASE=ghost
+          - MYSQL_PROXY_USER=proxyuser
+          - MYSQL_PROXY_PASSWORD=s3cret
+      mysql-secondary:
+        image: percona/percona-xtradb-cluster:5.7
+        environment: 
+          - CLUSTER_NAME=mycluster
+          - MYSQL_ROOT_PASSWORD=mypass
+       
+          - CLUSTER_JOIN=mysql-primary
+          - MYSQL_PROXY_USER=proxyuser
+          - MYSQL_PROXY_PASSWORD=s3cret
+        depends_on:
 
 ## Useful links ##
 
