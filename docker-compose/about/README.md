@@ -137,6 +137,7 @@ See:
 * [The YAML format: sample generic YAML file](http://www.yaml.org/start.html)
 * [The YAML format: quick reference](http://www.yaml.org/refcard.html)
 * [Compose file version differencies](https://docs.docker.com/compose/compose-file/compose-versioning/)
+* [Compose file version 3 reference](https://docs.docker.com/compose/compose-file/)
 * [Docker Compose release downloads](https://github.com/docker/compose/releases)
 
 | Navigation               |
