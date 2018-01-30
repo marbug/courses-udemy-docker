@@ -66,6 +66,25 @@
 * Go to **Appearance**
 * The **Bootstrap 3 for Drupal** must be present
 
+### Stop ###
+
+* Press **Ctrl** + **C**
+* Run
+
+        docker-compose down
+
+### Run again ###
+
+* Run
+
+        docker-compose up
+
+### Check ###
+
+* Configuration is already done
+* DB is already present
+* Refresh the page - everything is working
+
 | Navigation               |
 | ------------------------ |
 | [Level up](../README.md) |
