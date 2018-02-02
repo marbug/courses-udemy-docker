@@ -106,9 +106,32 @@
 
 ### Run ###
 
-    docker stack deploy -c example-voting-app-stack.yml voteapp 
+    docker stack deploy -c example-voting-app-stack.yml voteapp
+    
+### Check ###
 
-TODO
+    docker stack --help
+    docker stack ls
+    docker stack ps voteapp
+    docker container ls
+    docker stack services voteapp
+    docker stack ps voteapp
+
+Open
+
+* [http://localhost:5000/](http://localhost:5000/)
+* [http://localhost:5001/](http://localhost:5001/)
+* [http://localhost:8080/](http://localhost:8080/)
+
+### Edit ###
+
+Change **replicas** for **vote**
+
+### Redeploy ###
+
+Run same command
+
+    docker stack deploy -c example-voting-app-stack.yml voteapp
 
 ## Useful links ##
 
