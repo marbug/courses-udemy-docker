@@ -15,7 +15,6 @@
 ### example-voting-app-stack.yml ###
 
     version: "3"
-    
     services:
     
       redis:
@@ -25,13 +24,12 @@
         networks:
           - frontend
         deploy:
-          replicas: 2
+          replicas: 1
           update_config:
             parallelism: 2
             delay: 10s
           restart_policy:
             condition: on-failure
-    
       db:
         image: postgres:9.4
         volumes:
@@ -40,8 +38,7 @@
           - backend
         deploy:
           placement:
-            constraints: [node.role == manager ]
-    
+            constraints: [node.role == manager]
       vote:
         image: dockersamples/examplevotingapp_vote:before
         ports:
@@ -56,7 +53,6 @@
             parallelism: 2
           restart_policy:
             condition: on-failure
-    
       result:
         image: dockersamples/examplevotingapp_result:before
         ports:
@@ -89,6 +85,24 @@
             window: 120s
           placement:
             constraints: [node.role == manager]
+    
+      visualizer:
+        image: dockersamples/visualizer
+        ports:
+          - "8080:8080"
+        stop_grace_period: 1m30s
+        volumes:
+          - "/var/run/docker.sock:/var/run/docker.sock"
+        deploy:
+          placement:
+            constraints: [node.role == manager]
+    
+    networks:
+      frontend:
+      backend:
+    
+    volumes:
+      db-data:
 
 ### Run ###
 
