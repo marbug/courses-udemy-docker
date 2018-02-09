@@ -7,7 +7,9 @@
 * [Making it easier with Docker Compose: the multi-container tool](docker-compose/README.md)
 * [Swarm intro and creating a 3-node swarm cluster](swarm-cluster/README.md)
 * [Swarm Basic Features and How to Use Them In Your Workflow](swarm-usage/README.md)
-* TODO
+* [Swarm App Lifecycle](TODO)
+* [Container Registries: Image Storage and Distribution](TODO)
+* [Bonus Section](TODO)
 
 ## Useful links ##
 
