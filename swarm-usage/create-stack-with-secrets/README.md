@@ -66,8 +66,6 @@ Result
     gvdzickxuqu3        drupal_postgres.1   postgres:9.6        linuxkit-025000000001   Running             Preparing 34 seconds ago                       
     qsceezqepaas        drupal_drupal.1     drupal:8.2          linuxkit-025000000001   Running             Preparing 36 seconds ago              
 
-TODO
-
 | Navigation               |
 | ------------------------ |
 | [Level up](../README.md) |
