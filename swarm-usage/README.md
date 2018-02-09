@@ -7,7 +7,7 @@
 * [Secrets Storage for Swarm: Protecting Your Environment Variables](secrets-storage/README.md)
 * [Using Secrets in Swarm Services](using-secrets-in-swarm-services/README.md)
 * [Using Secrets with Swarm Stacks](using-secrets-in-swarm-stacks/README.md)
-* [Create A Stack with Secrets and Deploy](TODO)
+* [Create A Stack with Secrets and Deploy](create-stack-with-secrets/README.md)
 
 | Navigation               |
 | ------------------------ |
