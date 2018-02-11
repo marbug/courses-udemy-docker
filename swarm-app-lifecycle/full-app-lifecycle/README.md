@@ -163,7 +163,19 @@ to stop.
 
 ## Remote production environment ##
 
-TODO
+Run
+
+    docker-compose -f docker-compose.yml -f docker-compose.prod.yml config
+
+And check the result file.
+
+Then
+
+    docker-compose -f docker-compose.yml -f docker-compose.prod.yml config > output.yml
+
+And that **output.yml** should be used for production.
+
+But please note that Compose **extends:** doesn't work yet in Stacks.
 
 ## Useful links ##
 
