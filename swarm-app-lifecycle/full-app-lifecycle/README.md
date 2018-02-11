@@ -149,6 +149,18 @@ Run
 
 i.e. **docker-compose.yml** file will be used first and then its values will be override by values from **docker-compose.test.yml** file.
 
+Run
+
+    docker inspect fullapplifecycle_drupal_1
+
+and check that mounts from **docker-compose.override.yml** file are absent.
+
+Run
+
+    docker-compose down
+
+to stop.
+
 ## Remote production environment ##
 
 TODO
