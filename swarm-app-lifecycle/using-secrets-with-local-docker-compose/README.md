@@ -23,6 +23,10 @@ I.e.
         file: ./psql_user.txt
       psql_password:
         file: ./psql_password.txt
+
+## Run ##
+
+    docker-compose up -d
     
 ## TODO ##
 
