@@ -24,6 +24,10 @@ I.e.
       psql_password:
         file: ./psql_password.txt
 
+## psql_user.txt and psql_password.txt ##
+
+Let's use **psql_user.txt** and **psql_password.txt** from [Using Secrets with Swarm Stacks](../../swarm-usage/using-secrets-in-swarm-stacks/README.md) 
+
 ## Run ##
 
     docker-compose up -d
