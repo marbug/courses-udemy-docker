@@ -29,6 +29,8 @@
 
 ## docker-compose.override.yml ##
 
+For local development
+
     version: '3.1'
     
     services:
@@ -58,6 +60,63 @@
       drupal-sites:
       drupal-themes:
     
+    secrets:
+      psql-pw:
+        file: psql-fake-password.txt
+
+## docker-compose.prod.yml ##
+
+    version: '3.1'
+    
+    services:
+    
+      drupal:
+        ports:
+          - "80:80"
+        volumes:
+          - drupal-modules:/var/www/html/modules
+          - drupal-profiles:/var/www/html/profiles
+          - drupal-sites:/var/www/html/sites
+          - drupal-themes:/var/www/html/themes
+     
+      postgres:
+        environment:
+          - POSTGRES_PASSWORD_FILE=/run/secrets/psql-pw
+        secrets:
+          - psql-pw
+        volumes:
+          - drupal-data:/var/lib/postgresql/data
+    
+    volumes:
+      drupal-data:
+      drupal-modules:
+      drupal-profiles:
+      drupal-sites:
+      drupal-themes:
+    
+    secrets:
+      psql-pw:
+        external: true
+
+## docker-compose.test.yml ##
+
+    version: '3.1'
+    
+    services:
+    
+      drupal:
+        image: bretfisher/custom-drupal
+        build: .
+        ports:
+          - "80:80"
+    
+      postgres:
+        environment:
+          - POSTGRES_PASSWORD_FILE=/run/secrets/psql-pw
+        secrets:
+          - psql-pw
+        volumes:
+          - ./sample-data:/var/lib/postgresql/data
     secrets:
       psql-pw:
         file: psql-fake-password.txt
