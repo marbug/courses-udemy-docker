@@ -141,7 +141,15 @@ Run
 
 to stop.
 
-## TODO ##
+## Remote CI environment ##
+
+Run
+
+    docker-compose -f docker-compose.yml -f docker-compose.test.yml up -d
+
+i.e. **docker-compose.yml** file will be used first and then its values will be override by values from **docker-compose.test.yml** file.
+
+## Remote production environment ##
 
 TODO
 
