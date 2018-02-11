@@ -121,6 +121,20 @@ For local development
       psql-pw:
         file: psql-fake-password.txt
 
+## Local development environment ##
+
+Just run
+
+     docker-compose up -d
+
+It will automatically add/replace values from **docker-compose.yml** by values from **docker-compose.override.yml**
+
+Run
+
+    docker inspect fullapplifecycle_drupal_1
+
+and check mounts (they are from override file).
+
 ## TODO ##
 
 TODO
