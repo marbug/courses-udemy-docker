@@ -26,7 +26,7 @@ I.e.
 
 ## psql_user.txt and psql_password.txt ##
 
-Let's use **psql_user.txt** and **psql_password.txt** from [Using Secrets with Swarm Stacks](../../swarm-usage/using-secrets-in-swarm-stacks/README.md) 
+Let's use **psql_user.txt** and **psql_password.txt** from [Using Secrets with Swarm Stacks](../../swarm-usage/using-secrets-in-swarm-stacks/README.md) too. 
 
 i.e. **psql_user.txt**:
 
