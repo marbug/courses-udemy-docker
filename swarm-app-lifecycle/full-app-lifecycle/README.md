@@ -135,6 +135,12 @@ Run
 
 and check mounts (they are from override file).
 
+Run
+
+    docker-compose down
+
+to stop.
+
 ## TODO ##
 
 TODO
