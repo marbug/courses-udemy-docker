@@ -28,9 +28,13 @@ I.e.
 
     docker-compose up -d
     
-## TODO ##
+## Check psql_user ##
 
-TODO
+    docker-compose exec psql cat /run/secrets/psql_user
+
+## Check psql_password ##
+
+    docker-compose exec psql cat /run/secrets/psql_password
 
 | Navigation               |
 | ------------------------ |
