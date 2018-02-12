@@ -19,7 +19,7 @@ Current repo could be found on:
 * [Swarm intro and creating a 3-node swarm cluster](swarm-cluster/README.md)
 * [Swarm Basic Features and How to Use Them In Your Workflow](swarm-usage/README.md)
 * [Swarm App Lifecycle](swarm-app-lifecycle/README.md)
-* [Container Registries: Image Storage and Distribution](TODO)
+* [Container Registries: Image Storage and Distribution](image-storage-and-distribution/README.md)
 * [Bonus Section](TODO)
 
 ## Useful links ##
