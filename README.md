@@ -1,5 +1,16 @@
 # Courses: Udemy "Docker Mastery: The Complete Toolset From a Docker Captain" #
 
+## About ##
+
+This repo was created for making notes for Udemy course.
+
+Current repo could be found on:
+
+* [bitbucket](https://bitbucket.org/marbug/courses-udemy-docker)
+* [github](https://github.com/marbug/courses-udemy-docker)
+
+## Context ##
+
 * [Docker setup](docker-setup/README.md)
 * [Containers](containers/README.md)
 * [Container images](container-images/README.md)
