@@ -93,10 +93,15 @@
                 retries: 3
                 start_period: 1m # version 3.5 minimum
 
-## Postgres example ##
+## Postgres container example ##
 
     docker container run --name p1 -d postgres
     docker container run --name p2 -d --health-cmd="pg_isready -U postgres || exit 1" postgres
+
+## Postgres service example ##
+
+    docker service create --name p1 postgres
+    docker service create --name p2 --health-cmd="pg_isready -U postgres || exit 1" postgres
 
 ## Useful links ##
 
