@@ -2,7 +2,7 @@
 
 ## About ##
 
-This repo was created for making notes for Udemy course.
+This repo was created for making notes and checking examples of Udemy course.
 
 Current repo could be found on:
 
