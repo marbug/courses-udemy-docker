@@ -1,6 +1,6 @@
 # Courses: Udemy "Docker Mastery: The Complete Toolset From a Docker Captain" / Container Registries: Image Storage and Distribution #
 
-* [Docker Hub: Digging Deeper](TODO)
+* [Docker Hub: Digging Deeper](docker-hub/README.md)
 * [Docker Store: What Is It For?](TODO)
 * [Docker Cloud: CI/CD and Server Ops](TODO)
 * [Use Docker Cloud for Easy Remote Swarm Management](TODO)
