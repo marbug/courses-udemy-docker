@@ -22,7 +22,7 @@
 * On the top right click **Create**
 * Then **Create automated build**
 
-and then link your GitHub or BitBucket accounts.
+and then link your GitHub or BitBucket account.
 
 ## Useful links ##
 
