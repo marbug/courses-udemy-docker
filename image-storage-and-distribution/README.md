@@ -4,7 +4,7 @@
 * [Docker Store: What Is It For?](docker-store/README.md)
 * [Docker Cloud: CI/CD and Server Ops](docker-cloud-ci-cd/README.md)
 * [Use Docker Cloud for Easy Remote Swarm Management](use-docker-cloud/README.md)
-* [Understanding Docker Registry](TODO)
+* [Understanding Docker Registry](understanding-docker-registry/README.md)
 * [Run a Private Docker Registry](TODO)
 * [Secure Docker Registry With TLS and Authentication](TODO)
 * [Using Docker Registry With Swarm](TODO)
