@@ -2,7 +2,7 @@
 
 * [Docker Hub: Digging Deeper](docker-hub/README.md)
 * [Docker Store: What Is It For?](docker-store/README.md)
-* [Docker Cloud: CI/CD and Server Ops](TODO)
+* [Docker Cloud: CI/CD and Server Ops](docker-cloud-ci-cd/README.md)
 * [Use Docker Cloud for Easy Remote Swarm Management](TODO)
 * [Understanding Docker Registry](TODO)
 * [Run a Private Docker Registry](TODO)
