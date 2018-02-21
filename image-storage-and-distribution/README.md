@@ -7,7 +7,7 @@
 * [Understanding Docker Registry](understanding-docker-registry/README.md)
 * [Run a Private Docker Registry](run-private-registry/README.md)
 * [Secure Docker Registry With TLS and Authentication](TODO)
-* [Using Docker Registry With Swarm](TODO)
+* [Using Docker Registry With Swarm](using-docker-registry-with-swarm/README.md)
 * [Third Party Image Registries](TODO)
 
 | Navigation               |
