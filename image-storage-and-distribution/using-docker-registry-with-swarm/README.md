@@ -12,9 +12,72 @@ I'd like you to do the [Part 2 and 3 of "Docker Registry for Linux"](http://trai
 
 For more extra credit labs, look through their growing list: [http://training.play-with-docker.com/](http://training.play-with-docker.com/)
 
+## Notes ##
+
+* Works the same way as localhost
+* Because of Routing Mesh, all nodes can see 127.0.0.1:5000
+* Remember to decide how to store images (volume driver)
+
 ## Result ##
 
-TODO
+* Go to [labs.play-with-docker.com](labs.play-with-docker.com)
+* Click **Start**
+* Click utility icon on the between **Instances** and **Settings**
+* Select **5 managers and no workers**
+* Run
+
+        docker node ls
+        docker service create --name registry --publish 5000:5000 registry
+        docker service ps registry
+
+* On the top click on **5000** port
+* You'll be redirected to something like [http://ip172-18-0-59-bac38ahlukr0009t9evg-5000.direct.labs.play-with-docker.com/](http://ip172-18-0-59-bac38ahlukr0009t9evg-5000.direct.labs.play-with-docker.com/) with blank page
+* Go to same address but with **/v2/_catalog** path and see something like
+
+        {"repositories":[]}
+
+* Return back to labs.play-with-docker.com tab and run
+
+        docker pull hello-world
+        docker tag hello-world 127.0.0.1:5000/hello-world
+        docker push 127.0.0.1:5000/hello-world
+        
+* Refresh tab with **/v2/_catalog** path and see
+
+        {"repositories":["hello-world"]}         
+
+* Return back to labs.play-with-docker.com tab and run
+
+        docker pull nginx
+        docker tag nginx 127.0.0.1:5000/nginx
+        docker push 127.0.0.1:5000/nginx
+
+* Refresh tab with **/v2/_catalog** path and see
+
+        {"repositories":["hello-world","nginx"]}         
+
+* Return back to labs.play-with-docker.com tab and run
+
+        docker service create --name nginx -p 80:80 --replicas 5 --detach=false 127.0.0.1:5000/nginx
+
+* Port **80** will appear on top. Click on it.
+* You'll be redirected to something like [http://ip172-18-0-59-bac38ahlukr0009t9evg-80.direct.labs.play-with-docker.com/](http://ip172-18-0-59-bac38ahlukr0009t9evg-80.direct.labs.play-with-docker.com/) with
+
+        Welcome to nginx!
+        If you see this page, the nginx web server is successfully installed and working. Further configuration is required.
+        
+        For online documentation and support please refer to nginx.org.
+        Commercial support is available at nginx.com.
+        
+        Thank you for using nginx.
+
+## Note ##
+
+* All nodes must be able to access images
+
+## ProTip ##
+
+* Use a hosted SaaS registry if possible
 
 | Navigation               |
 | ------------------------ |
