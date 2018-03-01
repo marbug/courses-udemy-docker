@@ -55,9 +55,11 @@ So to start, I have [a sample project GitHub repo for Node.js](https://github.co
 
 [https://github.com/BretFisher/node-docker-good-defaults](https://github.com/BretFisher/node-docker-good-defaults)
 
-## TODO ##
+## About the DCA (Docker Certificated Associate) ##
 
-TODO
+I was a beta test taker for the DCA Exam in the fall of 2017, and got a 93%. Although this Docker Mastery course isn't designed around the DCA, it will cover at least 50% of the material you need to know for taking the exam. Remember the DCA is designed for their Docker EE paid product, which I don't teach in this course. Here's a full article I wrote that will hopefully answer your questions about the Docker Certified Associate exam and cert.
+
+[https://www.bretfisher.com/docker-certified-associate/](https://www.bretfisher.com/docker-certified-associate/)
 
 | Navigation               |
 | ------------------------ |
