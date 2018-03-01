@@ -31,6 +31,12 @@ She then shows various recovery options in case you "loose quorum" in your Swarm
 
 Watch on YouTube: [https://www.youtube.com/watch?v=Qsv-q8WbIZY](https://www.youtube.com/watch?v=Qsv-q8WbIZY)
 
+## Bret's Docker and DevOps Newsletter ##
+
+I send out an email newsletter about once a week on new articles I've written, big news in the Docker ecosystem, and other things you might find useful around containers. You can signup at: 
+
+[www.bretfisher.com/newsletter](www.bretfisher.com/newsletter)
+
 ## TODO ##
 
 TODO
