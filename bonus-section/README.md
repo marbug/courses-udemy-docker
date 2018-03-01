@@ -47,6 +47,14 @@ It's June of 2017, which means Docker 17.06 (stable) is out!  New features that 
 
 For a detailed list of changes, you can look through the [Docker CE release notes on GitHub](https://github.com/docker/docker-ce/releases).
 
+## Node.js Good Defaults For Docker ##
+
+I tried to keep this course "programming language agnostic", meaning that the things you learn would be just as useful with Java as with PHP or Python. But I do get lots of requests for how best to setup a docker project in language X.
+
+So to start, I have [a sample project GitHub repo for Node.js](https://github.com/BretFisher/node-docker-good-defaults), that has a detailed README as well as notes in each file for how you might best setup a Node app in Docker for local development and production use. Any issues or questions you have with it, please use the GitHub Issues for that repo rather than Q&A in this course. Thanks and enjoy!
+
+[https://github.com/BretFisher/node-docker-good-defaults](https://github.com/BretFisher/node-docker-good-defaults)
+
 ## TODO ##
 
 TODO
