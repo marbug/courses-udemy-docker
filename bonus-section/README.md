@@ -37,6 +37,10 @@ I send out an email newsletter about once a week on new articles I've written, b
 
 [www.bretfisher.com/newsletter](www.bretfisher.com/newsletter)
 
+## Using Prune to Keep Your Docker System Clean (YouTube) ##
+
+[Docker has posted a short tip video of me](https://youtu.be/_4QzP7uwtvI) explaining the **prune** command in the docker cli and various ways you can use it. Enjoy!
+
 ## TODO ##
 
 TODO
