@@ -41,6 +41,12 @@ I send out an email newsletter about once a week on new articles I've written, b
 
 [Docker has posted a short tip video of me](https://youtu.be/_4QzP7uwtvI) explaining the **prune** command in the docker cli and various ways you can use it. Enjoy!
 
+## What's New In Docker 17.06 (YouTube) ##
+
+It's June of 2017, which means Docker 17.06 (stable) is out!  New features that were in the edge releases the last two months (17.04 and 17.05) are also rolled into this quarterly stable release. [Watch a YouTube video of Mano at Docker HQ giving an overview of the new features](https://www.youtube.com/watch?v=-NeaXUGEK_g).
+
+For a detailed list of changes, you can look through the [Docker CE release notes on GitHub](https://github.com/docker/docker-ce/releases).
+
 ## TODO ##
 
 TODO
