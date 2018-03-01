@@ -6,6 +6,23 @@ Thanks so much for buying this course. If you'd like to continue learning more a
 
 [https://www.udemy.com/docker-swarm-mastery/?couponCode=1217URLSBONUS](https://www.udemy.com/docker-swarm-mastery/?couponCode=1217URLSBONUS)
 
+## Bret's DockerCon 2017 Video: "Journey to Docker Production" ##
+
+[YouTube video of my talk](https://www.youtube.com/watch?v=ZdUcKtg84T8) at DockerCon17 in Austin. My largest audience ever (1k maybe) so I was excited and nervous at first. It turned into a well received talk to a packed room of people ready to go production Docker. Lots of Q&A at the end.
+
+Then I did it again for DockerCon EU 6 months later! I think this one is better, and more fun, because I give you 80's and 90's video game trivia along the way. You can [watch this improved and revised version](https://dockercon.docker.com/watch/WdAeLaLuSCNQwEp61YVXUt) on Docker's site (it requires you give them your email, sorry).
+
+I talk about many of the decisions you need to make when taking your Docker containers from local dev/test to a production cluster. It covers decisions like:
+
+* What host OS should I use?
+* What base FROM images should I use?
+* How should my Swarm node design look?
+* What other tools besides Swarm do I need for production containers?
+* What common issues do people have when starting a production docker project?
+* How to limit the project from trying to change too much at once.
+* How to speed up the project by outsourcing small pieces of solution to existing products.
+* How Docker's Enterprise/Cloud products can help.
+
 ## TODO ##
 
 TODO
