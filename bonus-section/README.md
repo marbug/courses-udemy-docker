@@ -23,6 +23,14 @@ I talk about many of the decisions you need to make when taking your Docker cont
 * How to speed up the project by outsourcing small pieces of solution to existing products.
 * How Docker's Enterprise/Cloud products can help.
 
+## Swarm Raft Quorum and Recovery (Laura Frank from DockerCon 2017) ##
+
+Also from DockerCon 2017, fellow Docker Captain and friend Laura Frank had a great session on the internals of Swarm Managers and how quorum of their Raft log works, called ["Everything You Thought You Already Knew About Orchestration"](https://www.youtube.com/watch?v=Qsv-q8WbIZY). She goes into the math of how you always need an odd number of Managers, and what happens when one or more fail.
+
+She then shows various recovery options in case you "loose quorum" in your Swarm cluster. This video is demo heavy, so it's worth watching the whole thing!
+
+Watch on YouTube: [https://www.youtube.com/watch?v=Qsv-q8WbIZY](https://www.youtube.com/watch?v=Qsv-q8WbIZY)
+
 ## TODO ##
 
 TODO
