@@ -6,7 +6,7 @@
 * [Use Docker Cloud for Easy Remote Swarm Management](use-docker-cloud/README.md)
 * [Understanding Docker Registry](understanding-docker-registry/README.md)
 * [Run a Private Docker Registry](run-private-registry/README.md)
-* [Secure Docker Registry With TLS and Authentication](TODO)
+* [Secure Docker Registry With TLS and Authentication](secure-docker-registry-with-tls-and-authentication/README.md)
 * [Using Docker Registry With Swarm](using-docker-registry-with-swarm/README.md)
 * [Third Party Image Registries](third-party-image-registries/README.md)
 
